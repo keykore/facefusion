@@ -32,3 +32,4 @@ EXPOSE 7860
 # Default command to run FaceFusion web UI
 CMD ["python", "facefusion.py", "run", "--port", "7860"]
 
+
