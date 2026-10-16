@@ -1,5 +1,6 @@
 # Use official NVIDIA CUDA PyTorch base image for GPU acceleration
-FROM pytorch/pytorch:2.1.2-cuda11.8-cudnn8-runtime
+# ORIGINAL LINE:  FROM pytorch/pytorch:2.1.2-cuda11.8-cudnn8-runtime
+FROM pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
 
 # Set working directory inside the container
 WORKDIR /app
