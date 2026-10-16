@@ -6,3 +6,4 @@ onnxruntime-gpu==1.18.1
 opencv-python-headless==4.10.0.84
 tqdm==4.66.5
 scipy==1.13.1
+
